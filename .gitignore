@@ -1,0 +1,13 @@
+calisma_ciktilari/
+**/yerel_ozel/
+*.arff
+*.joblib
+*.npz
+compas-scores*.csv
+p1_temiz_veri.csv
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+
+COMPAS_Proje2_Ozel_Yedek.zip
+*_Ozel_Yedek.zip
