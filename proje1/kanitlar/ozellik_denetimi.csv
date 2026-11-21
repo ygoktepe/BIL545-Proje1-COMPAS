@@ -1,0 +1,54 @@
+ozellik,saklama_tipi,olcek,eksik_orani,farkli_deger,sifir_orani
+id,int64,kimlik / nominal,0.0,7214,0.0
+name,object,kimlik / nominal,0.0,7158,0.0
+first,object,kimlik / nominal,0.0,2800,0.0
+last,object,kimlik / nominal,0.0,3950,0.0
+compas_screening_date,object,zaman,0.0,690,0.0
+sex,object,nominal,0.0,2,0.0
+dob,object,kimlik / nominal,0.0,5452,0.0
+age,int64,oran / sayım,0.0,65,0.0
+age_cat,object,sıralı,0.0,3,0.0
+race,object,nominal,0.0,6,0.0
+juv_fel_count,int64,oran / sayım,0.0,11,0.960909342944275
+decile_score,int64,sıralı,0.0,10,0.0
+juv_misd_count,int64,oran / sayım,0.0,10,0.942472969226504
+juv_other_count,int64,oran / sayım,0.0,10,0.927502079290269
+priors_count,int64,oran / sayım,0.0,37,0.2980316052120876
+days_b_screening_arrest,float64,oran / sayım,0.042556140837260885,423,0.19115608538952036
+c_jail_in,object,zaman,0.042556140837260885,6907,0.0
+c_jail_out,object,zaman,0.042556140837260885,6880,0.0
+c_case_number,object,kimlik / nominal,0.003049625727751594,7192,0.0
+c_offense_date,object,zaman,0.16065982811200444,927,0.0
+c_arrest_date,object,zaman,0.8423897976157472,580,0.0
+c_days_from_compas,float64,oran / sayım,0.003049625727751594,499,0.12475741613529248
+c_charge_degree,object,nominal,0.0,2,0.0
+c_charge_desc,object,nominal,0.004019961186581647,437,0.0
+is_recid,int64,ikili / etiket,0.0,2,0.5188522317715553
+r_case_number,object,kimlik / nominal,0.5188522317715553,3471,0.0
+r_charge_degree,object,nominal,0.5188522317715553,10,0.0
+r_days_from_arrest,float64,oran / sayım,0.678957582478514,201,0.2323260327141669
+r_offense_date,object,zaman,0.5188522317715553,1075,0.0
+r_charge_desc,object,nominal,0.5268921541447186,340,0.0
+r_jail_in,object,zaman,0.678957582478514,972,0.0
+r_jail_out,object,zaman,0.678957582478514,938,0.0
+violent_recid,float64,ikili / etiket,1.0,0,0.0
+is_violent_recid,int64,ikili / etiket,0.0,2,0.8864707513168838
+vr_case_number,object,kimlik / nominal,0.8864707513168838,819,0.0
+vr_charge_degree,object,nominal,0.8864707513168838,9,0.0
+vr_offense_date,object,zaman,0.8864707513168838,570,0.0
+vr_charge_desc,object,nominal,0.8864707513168838,83,0.0
+type_of_assessment,object,nominal,0.0,1,0.0
+decile_score.1,int64,sıralı,0.0,10,0.0
+score_text,object,nominal,0.0,3,0.0
+screening_date,object,zaman,0.0,690,0.0
+v_type_of_assessment,object,nominal,0.0,1,0.0
+v_decile_score,int64,sıralı,0.0,10,0.0
+v_score_text,object,nominal,0.0,3,0.0
+v_screening_date,object,zaman,0.0,690,0.0
+in_custody,object,zaman,0.03271416689769892,1156,0.0
+out_custody,object,zaman,0.03271416689769892,1169,0.0
+priors_count.1,int64,oran / sayım,0.0,37,0.2980316052120876
+start,int64,oran / sayım,0.0,237,0.6269753257554754
+end,int64,oran / sayım,0.0,1115,0.0001386193512614361
+event,int64,ikili / etiket,0.0,2,0.6171333518159136
+two_year_recid,int64,ikili / etiket,0.0,2,0.5493484890490713

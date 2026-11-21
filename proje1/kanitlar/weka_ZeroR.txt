@@ -1,0 +1,67 @@
+[0.001s][warning][os,container] Cgroup memory controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.001s][warning][os,container] Cgroup cpu controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+WARNING: core mtj jar files are not available as resources to this classloader (jdk.internal.loader.ClassLoaders$AppClassLoader@639fee48)
+
+=== Classifier model (full training set) ===
+
+ZeroR predicts class value: 0
+
+Time taken to build model: 0.06 seconds
+
+Time taken to test model on training data: 0.08 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        2690               54.4865 %
+Incorrectly Classified Instances      2247               45.5135 %
+Kappa statistic                          0     
+Mean absolute error                      0.496 
+Root mean squared error                  0.498 
+Relative absolute error                100      %
+Root relative squared error            100      %
+Total Number of Instances             4937     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.545      1.000    0.705      ?        0.500     0.545     0
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.455     1
+Weighted Avg.    0.545    0.545    ?          0.545    ?          ?        0.500     0.504     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2690    0 |    a = 0
+ 2247    0 |    b = 1
+
+Time taken to perform cross-validation: 0.18 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        2690               54.4865 %
+Incorrectly Classified Instances      2247               45.5135 %
+Kappa statistic                          0     
+Mean absolute error                      0.496 
+Root mean squared error                  0.498 
+Relative absolute error                100      %
+Root relative squared error            100      %
+Total Number of Instances             4937     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.545      1.000    0.705      ?        0.500     0.545     0
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.455     1
+Weighted Avg.    0.545    0.545    ?          0.545    ?          ?        0.500     0.504     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2690    0 |    a = 0
+ 2247    0 |    b = 1
+

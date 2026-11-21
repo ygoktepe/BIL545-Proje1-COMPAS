@@ -1,0 +1,470 @@
+{
+  "raw_shape": [
+    7214,
+    53
+  ],
+  "n": 6172,
+  "age_gap_mean": 2.5646467919637073,
+  "time_audit": {
+    "0": {
+      "2014-04-01 sonrası": 0,
+      "2014-04-01 ve öncesi": 3363
+    },
+    "1": {
+      "2014-04-01 sonrası": 868,
+      "2014-04-01 ve öncesi": 1941
+    }
+  },
+  "weka_classification": {
+    "ZeroR": {
+      "accuracy": 0.544865302815475,
+      "ba": 0.5,
+      "confusion": [
+        [
+          2690,
+          0
+        ],
+        [
+          2247,
+          0
+        ]
+      ]
+    },
+    "J48": {
+      "accuracy": 0.6599149280939842,
+      "ba": 0.6576858363815943,
+      "confusion": [
+        [
+          1836,
+          854
+        ],
+        [
+          825,
+          1422
+        ]
+      ]
+    }
+  },
+  "models": {
+    "Dummy": {
+      "ba": {
+        "mean": 0.5,
+        "std": 0.0
+      },
+      "auc": {
+        "mean": 0.5,
+        "std": 0.0
+      },
+      "f1": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "precision": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "recall": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    "Lojistik": {
+      "ba": {
+        "mean": 0.6616371761930915,
+        "std": 0.016789468707416384
+      },
+      "auc": {
+        "mean": 0.7257031989640264,
+        "std": 0.01681146155535501
+      },
+      "f1": {
+        "mean": 0.6019714355523054,
+        "std": 0.022504476162715756
+      },
+      "precision": {
+        "mean": 0.67232734510384,
+        "std": 0.02081866749484378
+      },
+      "recall": {
+        "mean": 0.5453313536253401,
+        "std": 0.027474910689623395
+      }
+    },
+    "Karar ağacı": {
+      "ba": {
+        "mean": 0.6559345929746738,
+        "std": 0.019904703421001636
+      },
+      "auc": {
+        "mean": 0.7109048605572315,
+        "std": 0.021046313380224353
+      },
+      "f1": {
+        "mean": 0.6061160126837278,
+        "std": 0.035734779107835145
+      },
+      "precision": {
+        "mean": 0.6485059439557681,
+        "std": 0.024969925495535887
+      },
+      "recall": {
+        "mean": 0.5730835601748742,
+        "std": 0.06544135913691158
+      }
+    },
+    "k-NN": {
+      "ba": {
+        "mean": 0.6432729994630624,
+        "std": 0.014297924362170754
+      },
+      "auc": {
+        "mean": 0.6972868693782165,
+        "std": 0.015576186099711021
+      },
+      "f1": {
+        "mean": 0.6013438365595076,
+        "std": 0.019505586431580894
+      },
+      "precision": {
+        "mean": 0.6216386254012284,
+        "std": 0.014641653614860348
+      },
+      "recall": {
+        "mean": 0.5827046110698672,
+        "std": 0.027492528491780924
+      }
+    },
+    "Rastgele orman": {
+      "ba": {
+        "mean": 0.660696675678999,
+        "std": 0.019294361342399164
+      },
+      "auc": {
+        "mean": 0.7307688746114409,
+        "std": 0.018866631405318624
+      },
+      "f1": {
+        "mean": 0.6017397554565646,
+        "std": 0.02792564851918061
+      },
+      "precision": {
+        "mean": 0.6690080413487937,
+        "std": 0.020403914328146783
+      },
+      "recall": {
+        "mean": 0.5474156561907119,
+        "std": 0.03658649034065456
+      }
+    },
+    "Gradyan artırma": {
+      "ba": {
+        "mean": 0.6631704410216593,
+        "std": 0.017452008159611558
+      },
+      "auc": {
+        "mean": 0.7246202287764787,
+        "std": 0.016498024317353924
+      },
+      "f1": {
+        "mean": 0.616095443157042,
+        "std": 0.02430185096912781
+      },
+      "precision": {
+        "mean": 0.6553919859419083,
+        "std": 0.018739632278225306
+      },
+      "recall": {
+        "mean": 0.5819790480904066,
+        "std": 0.03509191756394659
+      }
+    }
+  },
+  "ranking": [
+    "Gradyan artırma",
+    "Lojistik",
+    "Rastgele orman",
+    "Karar ağacı",
+    "k-NN",
+    "Dummy"
+  ],
+  "tree_nodes": [
+    {
+      "derinlik": 0,
+      "ozellik": "num__priors_count",
+      "ham_esik": 2.5,
+      "kayit": 4937
+    },
+    {
+      "derinlik": 1,
+      "ozellik": "num__age_at_screen",
+      "ham_esik": 25.386,
+      "kayit": 3099
+    },
+    {
+      "derinlik": 2,
+      "ozellik": "num__priors_count",
+      "ham_esik": 0.5,
+      "kayit": 1262
+    },
+    {
+      "derinlik": 2,
+      "ozellik": "num__priors_count",
+      "ham_esik": 0.5,
+      "kayit": 1837
+    },
+    {
+      "derinlik": 1,
+      "ozellik": "num__age_at_screen",
+      "ham_esik": 31.708,
+      "kayit": 1838
+    },
+    {
+      "derinlik": 2,
+      "ozellik": "num__priors_count",
+      "ham_esik": 8.5,
+      "kayit": 1017
+    },
+    {
+      "derinlik": 2,
+      "ozellik": "num__priors_count",
+      "ham_esik": 9.5,
+      "kayit": 821
+    }
+  ],
+  "nested": {
+    "full_best": 0.6561580376864433,
+    "outer_mean": 0.6554502740957233,
+    "outer_std": 0.015636867148273913
+  },
+  "holdout": [
+    {
+      "Model": "Gradyan artırma",
+      "BA": 0.6542516907880473,
+      "ROC_AUC": 0.7210569870923733,
+      "F1": 0.6,
+      "precision": 0.6527196652719666,
+      "recall": 0.5551601423487544
+    },
+    {
+      "Model": "Lojistik",
+      "BA": 0.6534082797057844,
+      "ROC_AUC": 0.7268828689725191,
+      "F1": 0.5813008130081301,
+      "precision": 0.6777251184834123,
+      "recall": 0.5088967971530249
+    }
+  ],
+  "mcnemar": {
+    "table": [
+      [
+        744,
+        75
+      ],
+      [
+        79,
+        337
+      ]
+    ],
+    "p": 0.8090726851888611,
+    "models": [
+      "Gradyan artırma",
+      "Lojistik"
+    ]
+  },
+  "best": "Gradyan artırma",
+  "importance": [
+    {
+      "ozellik": "priors_count",
+      "ortalama_BA_azalmasi": 0.13395779254619544,
+      "std": 0.005932007107823799
+    },
+    {
+      "ozellik": "age_at_screen",
+      "ortalama_BA_azalmasi": 0.0785063107687574,
+      "std": 0.004966112429663509
+    },
+    {
+      "ozellik": "c_charge_desc",
+      "ortalama_BA_azalmasi": 0.03144940052246448,
+      "std": 0.004094556242038856
+    },
+    {
+      "ozellik": "c_charge_degree",
+      "ortalama_BA_azalmasi": 0.007002281439275571,
+      "std": 0.001103103763750812
+    },
+    {
+      "ozellik": "sex",
+      "ortalama_BA_azalmasi": 0.005642616425370117,
+      "std": 0.0013783871258893127
+    },
+    {
+      "ozellik": "juv_other_count",
+      "ortalama_BA_azalmasi": 0.0031430755257320087,
+      "std": 0.0010598029724316548
+    },
+    {
+      "ozellik": "juv_misd_count",
+      "ortalama_BA_azalmasi": 0.0012241187341072378,
+      "std": 0.0007165335774143713
+    },
+    {
+      "ozellik": "juv_fel_count",
+      "ortalama_BA_azalmasi": 9.006639170276998e-05,
+      "std": 0.00046984822806008224
+    }
+  ],
+  "sensitivity": {
+    "n": 4228,
+    "mean": 0.647963343765446,
+    "std": 0.008735737426480525
+  },
+  "simpson": {
+    "overall_diff": 0.12810267239057177,
+    "valid_strata": 6,
+    "reversal_count": 2
+  },
+  "rules_count": 12,
+  "top_rules": [
+    {
+      "onculler": "juvenile=1_plus & priors=6_plus",
+      "sonuc": "target=1",
+      "oncul_boyutu": 2,
+      "ortak_adet": 226,
+      "oncul_adet": 293,
+      "support": 0.04577678752278712,
+      "confidence": 0.7713310580204779,
+      "lift": 1.6947313900521135,
+      "kulczynski": 0.43595480359857897,
+      "IR": 0.8444252376836646
+    },
+    {
+      "onculler": "age=under25 & priors=3_5",
+      "sonuc": "target=1",
+      "oncul_boyutu": 2,
+      "ortak_adet": 188,
+      "oncul_adet": 258,
+      "support": 0.038079805549929104,
+      "confidence": 0.7286821705426356,
+      "lift": 1.6010253119577178,
+      "kulczynski": 0.40617464112356527,
+      "IR": 0.8584376348726803
+    },
+    {
+      "onculler": "degree=F & priors=6_plus",
+      "sonuc": "target=1",
+      "oncul_boyutu": 2,
+      "ortak_adet": 549,
+      "oncul_adet": 757,
+      "support": 0.11120113429208021,
+      "confidence": 0.7252311756935271,
+      "lift": 1.5934429525584972,
+      "kulczynski": 0.48477847169189037,
+      "IR": 0.6069246435845215
+    }
+  ],
+  "rare_rule_comparison": [
+    {
+      "onculler": "juvenile=1_plus & priors=6_plus",
+      "sonuc": "target=1",
+      "oncul_boyutu": 2,
+      "ortak_adet": 226,
+      "oncul_adet": 293,
+      "support": 0.04577678752278712,
+      "confidence": 0.7713310580204779,
+      "lift": 1.6947313900521135,
+      "kulczynski": 0.43595480359857897,
+      "IR": 0.8444252376836646,
+      "tur": "Nadir öncül (<%10)"
+    },
+    {
+      "onculler": "priors=6_plus",
+      "sonuc": "target=1",
+      "oncul_boyutu": 1,
+      "ortak_adet": 689,
+      "oncul_adet": 971,
+      "support": 0.13955843629734657,
+      "confidence": 0.709577754891864,
+      "lift": 1.5590500115269839,
+      "kulczynski": 0.5081044092661368,
+      "IR": 0.5045472518782128,
+      "tur": "Daha yaygın öncül (>%15)"
+    }
+  ],
+  "rare_category": {
+    "kategori": "juv_fel_count=1_plus",
+    "oncul_adet": 167,
+    "ortak_adet": 117,
+    "oncul_orani": 0.033826210249139156,
+    "support": 0.023698602390115453,
+    "confidence": 0.7005988023952094,
+    "lift": 1.5393218902648638,
+    "kulczynski": 0.3763341141482055,
+    "IR": 0.9055289508053983
+  },
+  "weka_rules": {
+    "python": 12,
+    "weka": 12,
+    "matched": 12,
+    "count_mismatches": 0
+  },
+  "encoding": {
+    "onehot": {
+      "mean": 0.6561542620604724,
+      "std": 0.01398937550053998
+    },
+    "rare": {
+      "mean": 0.6616371761930915,
+      "std": 0.016789468707416384
+    },
+    "target": {
+      "mean": 0.6574907955537523,
+      "std": 0.018658003714683607
+    },
+    "YANLIS_global_target": {
+      "mean": 0.6857143406477656,
+      "std": 0.014661049587685764
+    }
+  },
+  "leakage": {
+    "Doğru kat içi Pipeline": {
+      "mean": 0.6616371761930915,
+      "std": 0.016789468707416384
+    },
+    "YANLIŞ global ön işleme": {
+      "mean": 0.6588273774971352,
+      "std": 0.017263413565913897
+    }
+  },
+  "indicator": {
+    "False": {
+      "mean": 0.6616371761930915,
+      "std": 0.016789468707416384
+    },
+    "True": {
+      "mean": 0.6617232014969242,
+      "std": 0.01658960266928364
+    }
+  },
+  "protocol": {
+    "seed": 42,
+    "features": [
+      "age_at_screen",
+      "juv_fel_count",
+      "juv_misd_count",
+      "juv_other_count",
+      "priors_count",
+      "sex",
+      "c_charge_degree",
+      "c_charge_desc"
+    ],
+    "selected_model": "Gradyan artırma",
+    "split": "stratified 80/20",
+    "cv": "5-fold x 3 repeats on development",
+    "primary_metric": "balanced_accuracy",
+    "data_sha256": "c451db85908b2f7fef1d83203bedf6b71ecda0d5af468d82ae62178f91d0cc7d",
+    "cohort_filter": "ProPublica canonical 6172",
+    "threshold": 0.5,
+    "race_in_model": false
+  }
+}

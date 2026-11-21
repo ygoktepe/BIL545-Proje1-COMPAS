@@ -1,0 +1,21 @@
+{
+  "seed": 42,
+  "features": [
+    "age_at_screen",
+    "juv_fel_count",
+    "juv_misd_count",
+    "juv_other_count",
+    "priors_count",
+    "sex",
+    "c_charge_degree",
+    "c_charge_desc"
+  ],
+  "selected_model": "Gradyan artırma",
+  "split": "stratified 80/20",
+  "cv": "5-fold x 3 repeats on development",
+  "primary_metric": "balanced_accuracy",
+  "data_sha256": "c451db85908b2f7fef1d83203bedf6b71ecda0d5af468d82ae62178f91d0cc7d",
+  "cohort_filter": "ProPublica canonical 6172",
+  "threshold": 0.5,
+  "race_in_model": false
+}

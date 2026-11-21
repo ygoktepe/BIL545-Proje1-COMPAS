@@ -1,0 +1,82 @@
+[0.000s][warning][os,container] Cgroup memory controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.000s][warning][os,container] Cgroup cpu controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+WARNING: core mtj jar files are not available as resources to this classloader (jdk.internal.loader.ClassLoaders$AppClassLoader@639fee48)
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+priors_count <= 2
+|   age_at_screen <= 25.383136
+|   |   sex = Female: 0 (260.0/86.0)
+|   |   sex = Male
+|   |   |   priors_count <= 0: 0 (507.0/214.0)
+|   |   |   priors_count > 0: 1 (495.0/204.0)
+|   age_at_screen > 25.383136: 0 (1837.0/480.0)
+priors_count > 2: 1 (1838.0/662.0)
+
+Number of Leaves  : 	5
+
+Size of the tree : 	9
+
+
+Time taken to build model: 0.34 seconds
+
+Time taken to test model on training data: 0.07 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        3291               66.6599 %
+Incorrectly Classified Instances      1646               33.3401 %
+Kappa statistic                          0.3299
+Mean absolute error                      0.4372
+Root mean squared error                  0.4676
+Relative absolute error                 88.155  %
+Root relative squared error             93.8911 %
+Total Number of Instances             4937     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.678    0.347    0.700      0.678    0.689      0.330    0.686     0.680     0
+                 0.653    0.322    0.629      0.653    0.641      0.330    0.686     0.592     1
+Weighted Avg.    0.667    0.336    0.668      0.667    0.667      0.330    0.686     0.640     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1824  866 |    a = 0
+  780 1467 |    b = 1
+
+Time taken to perform cross-validation: 0.97 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        3258               65.9915 %
+Incorrectly Classified Instances      1679               34.0085 %
+Kappa statistic                          0.315 
+Mean absolute error                      0.4383
+Root mean squared error                  0.4703
+Relative absolute error                 88.3622 %
+Root relative squared error             94.4366 %
+Total Number of Instances             4937     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.683    0.367    0.690      0.683    0.686      0.315    0.679     0.685     0
+                 0.633    0.317    0.625      0.633    0.629      0.315    0.679     0.604     1
+Weighted Avg.    0.660    0.345    0.660      0.660    0.660      0.315    0.679     0.648     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1836  854 |    a = 0
+  825 1422 |    b = 1
+
